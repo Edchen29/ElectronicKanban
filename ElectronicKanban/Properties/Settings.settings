@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ElectronicKanban.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="db1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DB1200.0</Value>
+    </Setting>
+    <Setting Name="db2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DB1200.1</Value>
+    </Setting>
+    <Setting Name="db3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DB1200.2</Value>
+    </Setting>
+    <Setting Name="db4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DB1200.3</Value>
+    </Setting>
+    <Setting Name="db5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DB1200.4</Value>
+    </Setting>
+    <Setting Name="db6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DB1200.5</Value>
+    </Setting>
+    <Setting Name="db7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DB1200.6</Value>
+    </Setting>
+    <Setting Name="db8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DB1200.7</Value>
+    </Setting>
+    <Setting Name="db9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DB1200.8</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

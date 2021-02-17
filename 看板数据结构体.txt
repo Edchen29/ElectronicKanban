@@ -1,0 +1,30 @@
+
+(*看板数据结构体*)
+TYPE DataforView :
+STRUCT
+
+	iCurrentCutTimeHH		:INT;		(*本次坡口时间H*)
+	iCurrentCutTimeMM		:INT;		(*本次坡口时间M*)
+	iCurrentCutTimeSS		:INT;		(*本次坡口时间S*)
+	iCurrentStartTimeHH		:INT;		(*本次开机时间H*)
+	iCurrentStartTimeMM		:INT;		(*本次开机时间M*)
+	iCurrentStartTimeSS		:INT;		(*本次开机时间S*)
+	iTotalCutTimeHH			:INT;		(*累计坡口时间H*)
+	iTotalCutTimeMM			:INT;		(*累计坡口时间M*)
+	iTotalCutTimeSS			:INT;		(*累计坡口时间S*)
+	iTotalStartTimeHH		:INT;		(*累计开机时间H*)
+	iTotalStartTimeMM		:INT;		(*累计开机时间M*)
+	iTotalStartTimeSS		:INT;		(*累计开机时间S*)
+	iTotalCutTimes			:INT;		(*累计坡口次数*)
+	iThisDayCutTimes		:INT;		(*当天坡口次数*)
+	iTotalStartTimes		:INT;		(*累计启动次数*)
+	iThisDayStartTimes		:INT;		(*当天启动次数*)
+	udiSysTotalDIDsp		:UDINT;		(*累计产能*)
+
+END_STRUCT
+END_TYPE
+
+
+(*看板数据结构体变量*)
+BevelDataToBoard: DataforView;	(*看板数据*)
+
